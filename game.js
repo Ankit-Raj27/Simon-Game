@@ -17,13 +17,13 @@ $(document).keydown(function () {
     started = true;
   }
 });
-$(document).click(function () {
-  if (!started) {
-    $("#title").text("Level " + level);
-    nextSequence();
-    started = true;
-  }
-});
+// $(document).click(function () {
+//   if (!started) {
+//     $("#title").text("Level " + level);
+//     nextSequence();
+//     started = true;
+//   }
+// });
 
 $(".btn").click(function () {
   let userChosenColour = $(this).attr("id");
@@ -52,7 +52,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
 
-    $("#title").text("Game Over, Press Enter to start again!");
+    $("#title").text("Game Over, Press any key to start again!");
 
     startOver();
   }
