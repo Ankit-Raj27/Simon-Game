@@ -52,7 +52,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
 
-    $("#title").text("Game Over, Press any key to start again!");
+    $("#title").text("Game Over, Press Enter to start again!");
 
     startOver();
   }
