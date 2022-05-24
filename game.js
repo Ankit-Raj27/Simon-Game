@@ -1,5 +1,5 @@
 alert(
-  "How to play :\r\nOnce the game is started it'll blink a colour. The player has to click on the colour block and memorise it. Then another block will blink, the player then has to click on the previous block + the new block. Another block will blink and so on.\r\n \r\nYou better have a good memory or it's time to add almonds in your diet, mate!"
+  "How to play :\r\n Press any key on your keyboard to start the game.\r\n\r\nOnce the game is started it'll blink a colour. The player has to click on the colour block and memorise it. Then another block will blink, the player then has to click on the previous block + the new block. Another block will blink and so on.\r\n \r\nYou better have a good memory or it's time to add almonds in your diet, mate!"
 );
 
 let buttonColours = ["red", "blue", "green", "yellow"];
